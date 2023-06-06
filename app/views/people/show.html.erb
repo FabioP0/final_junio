@@ -1,4 +1,6 @@
 <dl>
+    <dt>Tipo de Identificación<dt>
+    <dd><%=@person.document.documento_tipo %></dd>
     <dt>Identificación<dt>
     <dd><%=@person.identificacion %></dd>
     <dt>Primer nombre<dt>
@@ -9,6 +11,8 @@
     <dd><%=@person.primer_apellido %></dd>
     <dt>Segundo apellido<dt>
     <dd><%=@person.segundo_apellido %></dd>
+    <dt>Role<dt>
+    <dd><%=@person.role.role_tipo %></dd>
 </dl>
 <div class="container">
 <a href="<%= edit_person_path %>" class="btn btn-primary">Editar</a>
