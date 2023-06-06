@@ -1,0 +1,10 @@
+<tr>
+    <th><%= person.id %></th>
+    <th><%= person.document.documento_tipo %></th>
+    <th><%= link_to person.identificacion, person_path(person.id) %></th>
+    <th><%= person.primer_nombre %></th>
+    <th><%= person.segundo_nombre %></th>
+    <th><%= person.primer_apellido %></th>
+    <th><%= person.segundo_apellido %></th>
+    <th><%= person.role.role_tipo %></th>
+</tr>

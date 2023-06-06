@@ -1,0 +1,16 @@
+<dl>
+    <dt>Identificación<dt>
+    <dd><%=@person.identificacion %></dd>
+    <dt>Primer nombre<dt>
+    <dd><%=@person.primer_nombre %></dd>
+    <dt>Segundo Nombre<dt>
+    <dd><%=@person.segundo_nombre %></dd>
+    <dt>Primer apellido<dt>
+    <dd><%=@person.primer_apellido %></dd>
+    <dt>Segundo apellido<dt>
+    <dd><%=@person.segundo_apellido %></dd>
+</dl>
+<div class="container">
+<a href="<%= edit_person_path %>" class="btn btn-primary">Editar</a>
+<a href="<%= people_path %>" class="btn btn-secondary">Volver</a>
+</div>
